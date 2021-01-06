@@ -4,8 +4,11 @@
 
 #include "camera_pins.h"
 
-const char* ssid = "ssid";
-const char* password = "********";
+//create a new file 'wifi_secret.h' with the two following constants
+//the reason is that 'wifi_sercert.h' is ignored by git
+//const char* ssid = "SSID";
+//const char* password =  "PASSWORD";
+#include "wifi_secret.h"
 
 void startCameraServer();
 
